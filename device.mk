@@ -24,6 +24,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := false
+
 # GSI
 PRODUCT_PACKAGES += \
     gsi_skip_mount.cfg \
