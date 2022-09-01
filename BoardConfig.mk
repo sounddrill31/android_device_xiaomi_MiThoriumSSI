@@ -12,5 +12,8 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
 
+# Partitions
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+
 # SELinux
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/../Mi439/sepolicy/public
