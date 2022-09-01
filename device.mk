@@ -12,6 +12,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
+
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
