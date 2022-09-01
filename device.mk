@@ -39,3 +39,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Extra
+PRODUCT_EXCLUDE_IH8SN := true
