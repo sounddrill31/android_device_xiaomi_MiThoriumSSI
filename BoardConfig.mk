@@ -12,6 +12,10 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
 
+# Kernel
+TARGET_KERNEL_CONFIG := mi439-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
+
 # Partitions
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_EXTFS_INODE_COUNT := -1
