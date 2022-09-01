@@ -11,3 +11,6 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
+
+# SELinux
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/../Mi439/sepolicy/public
