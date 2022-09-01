@@ -13,6 +13,7 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
 
 # Partitions
+BOARD_USES_METADATA_PARTITION := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
 # SELinux
