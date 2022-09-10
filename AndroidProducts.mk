@@ -11,3 +11,11 @@ COMMON_LUNCH_CHOICES := \
     lineage_MiThoriumSSI-user \
     lineage_MiThoriumSSI-userdebug \
     lineage_MiThoriumSSI-eng
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/revengeos_MiThoriumSSI.mk
+
+COMMON_LUNCH_CHOICES += \
+    revengeos_MiThoriumSSI-user \
+    revengeos_MiThoriumSSI-userdebug \
+    revengeos_MiThoriumSSI-eng
