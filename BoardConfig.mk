@@ -12,6 +12,10 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/mi439_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439-4.19
