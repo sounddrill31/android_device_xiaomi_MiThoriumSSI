@@ -7,6 +7,9 @@
 # Cryptfshw
 TARGET_EXCLUDE_CRYPTFSHW := true
 
+# Kernel
+TARGET_KERNEL_VERSION := 4.19
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
 

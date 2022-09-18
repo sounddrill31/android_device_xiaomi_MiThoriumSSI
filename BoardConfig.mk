@@ -13,8 +13,8 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/MiThoriumSSI
 
 # Kernel
-TARGET_KERNEL_CONFIG := mi439-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
+TARGET_KERNEL_CONFIG := vendor/mi439_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439-4.19
 
 # OTA
 TARGET_SKIP_OTA_PACKAGE := true
