@@ -9,15 +9,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Bootleggers stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Inherit from MiThoriumSSI device
 $(call inherit-product, device/xiaomi/MiThoriumSSI/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := MiThoriumSSI
-PRODUCT_NAME := lineage_MiThoriumSSI
+PRODUCT_NAME := bootleg_MiThoriumSSI
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi-Thorium Shared System Image
@@ -33,5 +33,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/release-keys"
 
 # MiThoriumSSI
-MITHORIUMSSI_ROM_NAME := LineageOS
-MITHORIUMSSI_ROM_VERSION := 20.0
+MITHORIUMSSI_ROM_NAME := Bootleggers
+MITHORIUMSSI_ROM_VERSION := 6.9-Alpha
