@@ -35,7 +35,3 @@ BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/relea
 # MiThoriumSSI
 MITHORIUMSSI_ROM_NAME := ProjectFluid
 MITHORIUMSSI_ROM_VERSION := 2.7
-
-# Disable boot animation
-PRODUCT_SYSTEM_PROPERTIES += \
-    debug.sf.nobootanimation=1
