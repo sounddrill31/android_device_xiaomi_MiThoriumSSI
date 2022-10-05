@@ -11,3 +11,11 @@ COMMON_LUNCH_CHOICES := \
     lineage_MiThoriumSSI-user \
     lineage_MiThoriumSSI-userdebug \
     lineage_MiThoriumSSI-eng
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/miku_MiThoriumSSI.mk
+
+COMMON_LUNCH_CHOICES += \
+    miku_MiThoriumSSI-user \
+    miku_MiThoriumSSI-userdebug \
+    miku_MiThoriumSSI-eng
