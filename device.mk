@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# MiThoriumSSI
+MITHORIUM_BUILDING_SSI := true
+
 # Cryptfshw
 TARGET_EXCLUDE_CRYPTFSHW := true
 
