@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+
 # MiThoriumSSI
 MITHORIUM_BUILDING_SSI := true
 
