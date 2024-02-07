@@ -5,12 +5,12 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_MiThoriumSSI.mk
+    $(LOCAL_DIR)/arrow_MiThoriumSSI.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_MiThoriumSSI-user \
-    lineage_MiThoriumSSI-userdebug \
-    lineage_MiThoriumSSI-eng
+    arrow_MiThoriumSSI-user \
+    arrow_MiThoriumSSI-userdebug \
+    arrow_MiThoriumSSI-eng
 
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/aosp_MiThoriumSSI.mk
